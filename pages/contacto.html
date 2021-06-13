@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <header>        
+        <p>Los Mejores Videos De Perritos</p>
+    </header>
+    <nav>
+        <ul class="menu">
+            <li><a class="opcionUno" href="../index.html">INICIO</a></li>
+            <li><a class="opcionDos" href="videos.html">VIDEOS</a></li>
+            <li><a class="opcionTres" href="fotos.html">FOTOS</a></li>
+            <li><a class="opcionCuatro" href="refugios.html">REFUGIOS</a></li>
+            <li><a class="opcionCinco" href="contacto.html">CONTACTO</a></li>
+        </ul>
+    </nav>
+    <main>
+        <form class="formulario" action="" method="POST">
+            <div class="contenedorFormulario">
+                <fieldset>
+                    <legend>Datos Personales</legend>
+
+                    <label for="nombreUsuario">Ingrese su nombre</label>
+                    <input type="text" id="nombreUsuario" placeholder="Ingrese su nombre">
+                    <br>
+
+                    <label for="claveUsuario">Ingrese su contraseña</label>
+                    <input type="password" id="claveUsuario">
+                    <br>
+
+                    <label for="documento">Ingrese su DNI</label>
+                    <input type="number" id="documento">
+                    <br>
+         
+                    <!-- RADIO BUTTON -->
+                    <label for="sexoUsuario">Seleccione su sexo</label>
+                    <fieldset class="sexo">            
+                        Femenino<input class="botones" type="radio" name="sexoUsuario">
+                        Masculino<input class="botones" type="radio" name="sexoUsuario">
+                    </fieldset>
+
+                    <div class="botonesFormulario">
+                        <input type="submit" value="Enviar">
+                        <input type="reset" value="Cancelar">
+                    </div>
+                </fieldset>
+            </div>
+        </form>
+    </main>
+    <footer>
+        <p>(C) 2021 Martín Del Percio</p>
+    </footer>
+</body>
+</html>
