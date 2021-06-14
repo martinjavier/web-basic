@@ -399,7 +399,7 @@ div iframe{
     display: grid;
     width: 100%;
     grid-template-columns: 20% 20% 20% 20% 20%;
-    grid-template-rows: 250px 250px;
+    grid-template-rows: 300px 300px;
     grid-template-areas: "foto1 foto2 foto3 foto4 foto5"
                         "foto6 foto7 foto8 foto9 foto10";
     align-items: center;
@@ -446,7 +446,6 @@ section article {
     font-style: normal;
     height: 140px;
 }
-
 
 /* MENU */
 
@@ -676,7 +675,7 @@ nav ul li{
         display: grid;
         width: 100%;
         grid-template-columns: 50% 50%;
-        grid-template-rows: auto auto auto auto auto;
+        grid-template-rows: 60px 60x 60x 60x 60x;
         grid-template-areas: "foto1 foto2"
                              "foto3 foto4"
                              "foto5 foto6"
@@ -686,8 +685,8 @@ nav ul li{
         justify-items: center;
         align-content: center;
         justify-content: center;
-        margin-left: 10px;
-        margin-right: 10px;
+        margin-left: 5px;
+        margin-right: 5px;
         background-image: linear-gradient(lightblue, white, lightblue);
     }
  
@@ -1879,7 +1878,7 @@ nav ul li{
         display: grid;
         width: 100%;
         grid-template-columns: 20% 20% 20% 20% 20%;
-        grid-template-rows: 150px 150px;
+        grid-template-rows: 300px 300px;
         grid-template-areas: "foto1 foto2 foto3 foto4 foto5"
                             "foto6 foto7 foto8 foto9 foto10";
         align-items: center;
