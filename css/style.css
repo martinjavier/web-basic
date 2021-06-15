@@ -397,7 +397,6 @@ div iframe{
 
 .fotos{
     display: grid;
-    width: 100%;
     grid-template-columns: 20% 20% 20% 20% 20%;
     grid-template-rows: 300px 300px;
     grid-template-areas: "foto1 foto2 foto3 foto4 foto5"
@@ -673,18 +672,13 @@ nav ul li{
 
     .fotos{
         display: grid;
-        width: 100%;
         grid-template-columns: 50% 50%;
-        grid-template-rows: 60px 60px 60px 60px 60px;
+        grid-template-rows: repeat(5, 120px);
         grid-template-areas: "foto1 foto2"
                              "foto3 foto4"
                              "foto5 foto6"
                              "foto7 foto8"
                              "foto9 foto10";
-        align-items: center;
-        justify-items: center;
-        align-content: center;
-        justify-content: center;
         margin-left: 5px;
         margin-right: 5px;
         background-image: linear-gradient(lightblue, white, lightblue);
@@ -925,7 +919,6 @@ nav ul li{
     
         .fotos{ 
             display: grid;
-            width: 100%;
             grid-template-columns: 20% 20% 20% 20% 20%;
             grid-template-rows: 150px 150px;
             grid-template-areas: "foto1 foto2 foto3 foto4 foto5"
@@ -1346,7 +1339,6 @@ nav ul li{
 
     .fotos{ 
         display: grid;
-        width: 100%;
         grid-template-columns: 20% 20% 20% 20% 20%;
         grid-template-rows: 150px 150px;
         grid-template-areas: "foto1 foto2 foto3 foto4 foto5"
@@ -1876,7 +1868,6 @@ nav ul li{
 
     .fotos{
         display: grid;
-        width: 100%;
         grid-template-columns: 20% 20% 20% 20% 20%;
         grid-template-rows: 300px 300px;
         grid-template-areas: "foto1 foto2 foto3 foto4 foto5"
