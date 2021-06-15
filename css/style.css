@@ -675,7 +675,7 @@ nav ul li{
         display: grid;
         width: 100%;
         grid-template-columns: 50% 50%;
-        grid-template-rows: 60px 60x 60x 60x 60x;
+        grid-template-rows: 60px 60px 60px 60px 60px;
         grid-template-areas: "foto1 foto2"
                              "foto3 foto4"
                              "foto5 foto6"
