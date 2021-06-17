@@ -173,7 +173,7 @@ div iframe:hover{
 
 .tablas{
     display: grid;
-    grid-template-columns: 1fr1fr;
+    grid-template-columns: 1fr;
     grid-template-rows: 1fr;
     grid-template-areas: "tabla";
     background-image: linear-gradient(lightblue, white, lightblue);
