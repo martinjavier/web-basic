@@ -670,6 +670,67 @@ nav ul li{
         height: 150px;
     }
 
+
+    .fotografia1{
+        grid-area: foto1;
+        width: 80%;
+        height: 80%;
+    }
+    
+    .fotografia2{
+        grid-area: foto2;
+        width: 80%;
+        height: 80%;
+    }
+    
+    .fotografia3{
+        grid-area: foto3;
+        width: 80%;
+        height: 80%;
+    }
+    
+    .fotografia4{
+        grid-area: foto4;
+        width: 80%;
+        height: 80%;
+    }
+    
+    .fotografia5{
+        grid-area: foto5;
+        width: 80%;
+        height: 80%;
+    }
+    
+    .fotografia6{
+        grid-area: foto6;
+        width: 80%;
+        height: 80%;
+    }
+    
+    .fotografia7{
+        grid-area: foto7;
+        width: 80%;
+        height: 80%;
+    }
+    
+    .fotografia8{
+        grid-area: foto8;
+        width: 80%;
+        height: 80%;
+    }
+    
+    .fotografia9{
+        grid-area: foto9;
+        width: 80%;
+        height: 80%;
+    }
+    
+    .fotografia10{
+        grid-area: foto10;
+        width: 80%;
+        height: 80%;
+    }
+
     .fotos{
         display: grid;
         grid-template-columns: 50% 50%;
