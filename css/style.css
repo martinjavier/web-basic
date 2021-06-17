@@ -281,7 +281,6 @@ fieldset{
 .botonesFormulario{
     display: flex;
     flex-direction:row;
-    align-content: right;
     justify-content: right;   
 }
 
@@ -672,14 +671,13 @@ nav ul li{
         background-image: linear-gradient(lightblue, white, lightblue);
         width: 100%;   
         display: grid;
-        grid-template-columns: 90%;
+        grid-template-columns: 87.5%;
         grid-template-rows: auto auto auto auto;
         grid-template-areas: "articulo1"
                             "articulo2"
                             "articulo3"
                             "aside"; 
-        margin: 0px;
-        align-content: center;
+         align-content: center;
         justify-content: center;
         align-items: center;
         justify-items: center;
@@ -690,20 +688,17 @@ nav ul li{
 
     .ArticuloUno{
         grid-area: articulo1;
-        width: 87.5%;
-        margin-left: 20px;
+        width: 100%;
     }
     
     .ArticuloDos{
         grid-area: articulo2;
-        width: 87.5%;
-        margin-left: 20px;
+        width: 100%;
     }
     
     .ArticuloTres{
         grid-area: articulo3;
-        width: 87.5%;
-        margin-left: 20px;
+        width: 100%;
     }
 
     .contenidoAside{
@@ -716,8 +711,11 @@ nav ul li{
     }
     
     aside{
-        margin-left:-20px;
-        width: 87.5%;
+        width: 100%;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        justify-items: center;
     }
 
     /* Footer */
@@ -1344,7 +1342,6 @@ nav ul li{
     .botonesFormulario{
         display: flex;
         flex-direction:row;
-        align-content: right;
         justify-content: right;   
     }
     
@@ -1871,7 +1868,6 @@ nav ul li{
     .botonesFormulario{
         display: flex;
         flex-direction:row;
-        align-content: right;
         justify-content: right;   
     }
     
