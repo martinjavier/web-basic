@@ -709,9 +709,7 @@ nav ul li{
     }
 
     .contenidoAside{
-        width: 100%;
-        /*display: flex;
-        flex-direction: column;*/    
+        width: 100%; 
         align-content: center;
         justify-content: center;
         align-items: center;
