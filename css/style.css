@@ -279,10 +279,8 @@ fieldset{
 }
 
 .botonesFormulario{
-    display: grid;
-    grid-template-columns: 4fr 4r 4r ;
-    grid-template-rows: 4fr;
-    grid-template-areas: ". botonera .";    
+    display: flex;
+    flex-direction:row;
     align-content: right;
     justify-content: right;   
 }
@@ -298,7 +296,7 @@ fieldset{
     width: 40%;
     justify-content: center;
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     flex-direction: row;
 }
 
@@ -1344,10 +1342,8 @@ nav ul li{
     }
     
     .botonesFormulario{
-        display: grid;
-        grid-template-columns: 4fr 4r 4r ;
-        grid-template-rows: 4fr;
-        grid-template-areas: ". botonera .";    
+        display: flex;
+        flex-direction:row;
         align-content: right;
         justify-content: right;   
     }
@@ -1363,7 +1359,7 @@ nav ul li{
         width: 40%;
         justify-content: center;
         display: flex;
-        flex-wrap: wrap;
+        flex-wrap: nowrap;
         flex-direction: row;
     }
     
@@ -1873,10 +1869,8 @@ nav ul li{
     }
     
     .botonesFormulario{
-        display: grid;
-        grid-template-columns: 4fr 4r 4r ;
-        grid-template-rows: 4fr;
-        grid-template-areas: ". botonera .";    
+        display: flex;
+        flex-direction:row;
         align-content: right;
         justify-content: right;   
     }
@@ -1892,7 +1886,7 @@ nav ul li{
         width: 40%;
         justify-content: center;
         display: flex;
-        flex-wrap: wrap;
+        flex-wrap: nowrap;
         flex-direction: row;
     }
     
