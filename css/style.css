@@ -104,12 +104,6 @@ aside{
 
 /* SECTION */
 
-section p{
-    color: green;
-    font-size: 20px;
-    font-weight: lighter;
-}
-
 main section article{
     width: 100%;
     font-size: 30px;
@@ -439,7 +433,6 @@ section article {
     border: 3px solid whitesmoke;
     border-radius: 1em;
     text-align: left;
-    font-size: 30px;
     font-style: normal;
     height: 140px;
 }
@@ -531,18 +524,10 @@ nav ul li{
         text-shadow: 2px 2px 2px black;    
     }
     
-    section p{
-        font-size: 10px;
-    }
-    
     main section article{
         font-size: 12px;
     }
-    
-    p{
-       font-size: 20px;
-    }
-    
+     
     div table{
         font-size: 10px;
         margin: 10px;
@@ -616,7 +601,6 @@ nav ul li{
     section article {
         border: 3px solid whitesmoke;
         border-radius: 1em;
-        font-size: 15px;
         height: 70px;
     }    
 
@@ -850,16 +834,8 @@ nav ul li{
         text-shadow: 2px 2px 2px black;    
     }
     
-    section p{
-        font-size: 10px;
-    }
-    
     main section article{
         font-size: 12px;
-    }
-    
-    p{
-       font-size: 15px;
     }
     
     div table{
@@ -932,7 +908,6 @@ nav ul li{
     section article {
         border: 3px solid whitesmoke;
         border-radius: 1em;
-        font-size: 15px;
         height: 70px;
     }    
 
@@ -974,82 +949,82 @@ nav ul li{
         height: 150px;
     }
 
-        /* FOTOS */
-        
-        .fotografia1{
-            grid-area: foto1;
-            width: 80%;
-            height: 80%;
-        }
-        
-        .fotografia2{
-            grid-area: foto2;
-            width: 80%;
-            height: 80%;
-        }
-        
-        .fotografia3{
-            grid-area: foto3;
-            width: 80%;
-            height: 80%;
-        }
-        
-        .fotografia4{
-            grid-area: foto4;
-            width: 80%;
-            height: 80%;
-        }
-        
-        .fotografia5{
-            grid-area: foto5;
-            width: 80%;
-            height: 80%;
-        }
-        
-        .fotografia6{
-            grid-area: foto6;
-            width: 80%;
-            height: 80%;
-        }
-        
-        .fotografia7{
-            grid-area: foto7;
-            width: 80%;
-            height: 80%;
-        }
-        
-        .fotografia8{
-            grid-area: foto8;
-            width: 80%;
-            height: 80%;
-        }
-        
-        .fotografia9{
-            grid-area: foto9;
-            width: 80%;
-            height: 80%;
-        }
-        
-        .fotografia10{
-            grid-area: foto10;
-            width: 80%;
-            height: 80%;
-        }
+    /* FOTOS */
     
-        .fotos{ 
-            display: grid;
-            grid-template-columns: 20% 20% 20% 20% 20%;
-            grid-template-rows: 150px 150px;
-            grid-template-areas: "foto1 foto2 foto3 foto4 foto5"
-                                "foto6 foto7 foto8 foto9 foto10";
-            align-items: center;
-            justify-items: center;
-            align-content: center;
-            justify-content: center;
-            margin-left: 10px;
-            margin-right: 10px;
-            background-image: linear-gradient(lightblue, white, lightblue);
-        }
+    .fotografia1{
+        grid-area: foto1;
+        width: 80%;
+        height: 80%;
+    }
+    
+    .fotografia2{
+        grid-area: foto2;
+        width: 80%;
+        height: 80%;
+    }
+    
+    .fotografia3{
+        grid-area: foto3;
+        width: 80%;
+        height: 80%;
+    }
+    
+    .fotografia4{
+        grid-area: foto4;
+        width: 80%;
+        height: 80%;
+    }
+    
+    .fotografia5{
+        grid-area: foto5;
+        width: 80%;
+        height: 80%;
+    }
+    
+    .fotografia6{
+        grid-area: foto6;
+        width: 80%;
+        height: 80%;
+    }
+    
+    .fotografia7{
+        grid-area: foto7;
+        width: 80%;
+        height: 80%;
+    }
+    
+    .fotografia8{
+        grid-area: foto8;
+        width: 80%;
+        height: 80%;
+    }
+    
+    .fotografia9{
+        grid-area: foto9;
+        width: 80%;
+        height: 80%;
+    }
+    
+    .fotografia10{
+        grid-area: foto10;
+        width: 80%;
+        height: 80%;
+    }
+
+    .fotos{ 
+        display: grid;
+        grid-template-columns: 20% 20% 20% 20% 20%;
+        grid-template-rows: 150px 150px;
+        grid-template-areas: "foto1 foto2 foto3 foto4 foto5"
+                            "foto6 foto7 foto8 foto9 foto10";
+        align-items: center;
+        justify-items: center;
+        align-content: center;
+        justify-content: center;
+        margin-left: 10px;
+        margin-right: 10px;
+        background-image: linear-gradient(lightblue, white, lightblue);
+    }
 }
 
 /* Pantallas Mayores */
@@ -1160,12 +1135,6 @@ nav ul li{
     
     /* SECTION */
     
-    section p{
-        color: green;
-        font-size: 15px;
-        font-weight: lighter;
-    }
-    
     main section article{
         width: 100%;
         font-size: 20px;
@@ -1176,14 +1145,7 @@ nav ul li{
     h1{
         color: red;
     }
-    
-    p{
-        color: blue;
-        font-style:normal;
-        font-weight: normal;
-        font-size: 50px;
-    }
-    
+     
     /* VIDEOS */
     
     .videos{
@@ -1499,7 +1461,6 @@ nav ul li{
         border: 3px solid whitesmoke;
         border-radius: 1em;
         text-align: left;
-        font-size: 30px;
         font-style: normal;
         height: 140px;
     }
@@ -1686,28 +1647,15 @@ nav ul li{
     
     /* SECTION */
     
-    section p{
-        color: green;
-        font-size: 20px;
-        font-weight: lighter;
-    }
-    
     main section article{
         width: 100%;
-        font-size: 30px;
+        font-size: 22px;
         font-weight: normal;
         background-image: linear-gradient(lightblue, white, lightblue);
     }
     
     h1{
         color: red;
-    }
-    
-    p{
-        color: blue;
-        font-style:normal;
-        font-weight: normal;
-        font-size: 50px;
     }
     
     /* VIDEOS */
@@ -2026,7 +1974,518 @@ nav ul li{
         border: 3px solid whitesmoke;
         border-radius: 1em;
         text-align: left;
+        font-style: normal;
+        height: 140px;
+    }
+        
+    /* MENU */
+    
+    .menu{
+        display: grid;
         font-size: 30px;
+        width: 100%;
+        grid-template-columns: 20% 20% 20% 20% 20%;
+        grid-template-rows: 100%;
+        grid-template-areas: "opcion1 opcion2 opcion3 opcion4 opcion5";      
+        align-items: center;
+        justify-items: center;
+        align-content: center;
+        justify-content: center;
+        background-image: linear-gradient(lightblue, white, lightblue);
+    }
+    
+    nav ul li a{
+        text-decoration: none;
+        list-style-type: none;
+        display: flex;
+        font-style: normal;
+        width: 250px;
+        border-radius: 1em;
+        background-image: linear-gradient(cyan, rgb(9, 161, 211) );
+        color: white;
+        text-shadow: 4px 4px 4px black;
+        align-items: center;
+        justify-items: center;
+        align-content: center;
+        justify-content: center;
+    }
+    
+    nav ul li a:hover{
+        color: white;
+        background-image: linear-gradient(rgb(9, 161, 211), cyan );
+        text-shadow: 4px 4px 4px black;
+    }
+    
+    nav ul li{
+        text-decoration: none;
+        list-style-type: none;
+        padding: 0px 0px 0px 0px;
+        margin: 10px;
+        font-style: normal;
+        width: 80%;
+    }
+    
+    .opcionUno{
+        width: 100%;
+        grid-area: opcion1;
+    }
+    
+    .opcionDos{
+        width: 100%;
+        grid-area: opcion2;
+    }
+    
+    .opcionTres{
+        width: 100%;
+        grid-area: opcion3;
+    }
+    
+    .opcionCuatro{
+        width: 100%;
+        grid-area: opcion4;
+    }
+    
+    .opcionCinco{
+        width: 100%;
+        grid-area: opcion5;
+    }
+}
+
+/* Pantallas Muy Grandes */
+
+@media only screen and (min-width: 1400px){
+
+    *{
+        margin: 0px;
+        padding: 0px;
+        font-family: Ubuntu, Arial, Helvetica, sans-serif;
+    }
+
+    section{
+        width: 100%;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    
+    .ArticuloUno{
+        grid-area: articulo1;
+        width: 97%;
+    }
+    
+    .ArticuloDos{
+        grid-area: articulo2;
+        width: 97%;
+    }
+    
+    .ArticuloTres{
+        grid-area: articulo3;
+        width: 97%;
+    }
+    
+    main{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
+        background-image: linear-gradient(lightblue, white, lightblue);
+        width: 100%;
+    }
+    
+    .mainInicio{
+        background-image: linear-gradient(lightblue, white, lightblue);
+        width: 100%;   
+        display: grid;
+        grid-template-columns: 75% 20%;
+        grid-template-rows: auto auto auto;
+        grid-template-areas: "articulo1 aside"
+                            "articulo2 aside"
+                            "articulo3 aside"; 
+    }
+    
+    .mainFotos{
+        background-image: linear-gradient(lightblue, white, lightblue);
+        width: 100%;
+    }
+    
+    .mainVideos{
+        background-image: linear-gradient(lightblue, white, lightblue);
+        width: 100%;
+    }
+    
+    /* ASIDE */
+    
+    aside p{
+        color: white;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 25px;
+        text-align: center;
+        text-shadow: 4px 4px 4px black;    
+    }
+    
+    .contenidoAside{
+        width: 100%;
+        display: flex;
+        flex-direction: column;    
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        justify-items: center;
+        grid-area: aside;
+        font-size: 25px;
+    }
+    
+    aside{
+        border: 3px solid whitesmoke;
+        border-radius: 1em;    
+        background-image: linear-gradient(lightblue, white, lightblue);
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        justify-items: center;
+    }
+    
+    .title1{
+        width: 100%;
+    }
+    
+    .picture{
+        width: 100%;
+    }
+    
+    .title2{
+        width: 100%;
+    }
+    
+    /* SECTION */
+
+    main section article{
+        width: 100%;
+        font-size: 30px;
+        font-weight: normal;
+        background-image: linear-gradient(lightblue, white, lightblue);
+    }
+    
+    h1{
+        color: red;
+    }
+    
+    /* VIDEOS */
+    
+    .videos{
+        width: 100%;
+        background-image: linear-gradient(lightblue, white, lightblue);
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    
+    .videoUno{
+        grid-area: video1;
+        width: 100%;
+        height: 300px;
+    }
+    
+    .videoDos{
+        grid-area: video2;
+        width: 100%;
+        height: 300px;
+    }
+    
+    .videoTres{
+        grid-area: video3;
+        width: 100%;
+        height: 300px;
+    }
+    
+    .contenedorVideos{
+        display: grid;
+        grid-template-columns: 30% 1% 30% 1% 30%;
+        grid-template-rows: auto;
+        grid-template-areas: "video1 . video2 . video3";
+        align-items: center;
+        justify-content: center;
+        background-image: linear-gradient(lightblue, white, lightblue);
+    }
+    
+    div iframe{
+        border-radius: 2em;
+        transform: scale(1, 1);
+        transition: all 1s;
+    }
+    
+    div iframe:hover{
+        transform: scale(1.1, 1.1);
+        transition: all 1s;
+    }
+    
+    /* REFUGIOS */
+    
+    .tablas{
+        display: grid;
+        grid-template-columns: 1fr 10fr 1fr;
+        grid-template-rows: 2fr;
+        grid-template-areas: ". tabla .";
+        background-image: linear-gradient(lightblue, white, lightblue);
+        width: 100%;
+    }
+    
+    div table{
+        grid-area: tabla;
+        width: 100%;
+        font-style:normal;
+        font-size: 15px;
+        margin: 10px;
+        background-color: white;
+    }
+    
+    /* HEADER */
+    
+    header{
+        background-color: black;
+        background-image: url("../img/perritos1.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size:cover;
+        height: 100%;
+    }
+       
+    body header p{
+        padding-top: 2px;
+        color: white;
+        font-size: 50px;
+        text-align: center;
+        font-style: normal;
+        text-shadow: 4px 4px 4px black;
+    }
+    
+
+    /* FOOTER */
+    
+    footer{
+        background-image: linear-gradient(lightblue, white, lightblue);
+        font-size: 30px;
+        text-align: center;
+        list-style-type: none;
+        border: 3px solid whitesmoke;
+    }
+    
+    .footerName{
+        color: white;
+        font-size: 30px;
+        text-align: center;
+        font-style: normal;
+        text-shadow: 4px 4px 4px gray;
+    }
+    
+    /* FORMULARIO DE CONTACTO */
+    
+    .formulario{
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+        background-image: linear-gradient(lightblue, white, lightblue);
+    }
+    
+    .contenedorFormulario{
+        display: grid;
+        grid-template-columns: 1fr 8fr 1fr ;
+        grid-template-rows: 10fr;
+        grid-template-areas: ". formulario .";
+        align-items: center;
+        justify-items: center;
+        align-content: center;
+        justify-content: center;
+        font-size: 30px;
+        width: 100%;
+        background-image: linear-gradient(lightblue, white, lightblue);
+    }
+    
+    #nombreUsuario{
+        width: 450px;
+    }
+    
+    #nombreUsuario:hover{
+        background-color: lightsteelblue;
+    }
+    
+    #claveUsuario{
+        width: 400px;
+    }
+    
+    #claveUsuario:hover{
+        background-color: lightsteelblue;
+    }
+    
+    #documento:hover{
+        background-color: lightsteelblue;
+    }
+    
+    fieldset{
+        grid-area: formulario;
+        width: 100%;
+        align-content: center;
+        justify-content: center;
+    }
+    
+    .botonesFormulario{
+        display: flex;
+        flex-direction:row;
+        justify-content: right;
+        align-content: right;
+    }
+    
+    .botones{
+        align-content: center;
+        width: 100px;
+        justify-content: center;
+    }
+    
+    .sexo{
+        align-content: center;
+        width: 40%;
+        justify-content: center;
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: row;
+    }
+    
+    fieldset label{
+        font-style: normal;
+        font-size: 30px;
+        margin: 20px;
+    }
+    
+    fieldset input{
+        font-style: normal;
+        font-size: 30px;
+        margin: 10px;
+        width: 250px;
+    }
+    
+    form textarea{
+        font-style: normal;
+        font-size: 30px;
+        margin: 10px;
+    }
+    
+    ul.no-bullets {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+    
+    div iframe{
+        margin: 10px;
+        padding: 10px 10px 10px 10px;
+    }
+    
+    /* FOTOS */
+    
+    .fotografia1{
+        grid-area: foto1;
+        width: 80%;
+        height: 80%;
+    }
+    
+    .fotografia2{
+        grid-area: foto2;
+        width: 80%;
+        height: 80%;
+    }
+    
+    .fotografia3{
+        grid-area: foto3;
+        width: 80%;
+        height: 80%;
+    }
+    
+    .fotografia4{
+        grid-area: foto4;
+        width: 80%;
+        height: 80%;
+    }
+    
+    .fotografia5{
+        grid-area: foto5;
+        width: 80%;
+        height: 80%;
+    }
+    
+    .fotografia6{
+        grid-area: foto6;
+        width: 80%;
+        height: 80%;
+    }
+    
+    .fotografia7{
+        grid-area: foto7;
+        width: 80%;
+        height: 80%;
+    }
+    
+    .fotografia8{
+        grid-area: foto8;
+        width: 80%;
+        height: 80%;
+    }
+    
+    .fotografia9{
+        grid-area: foto9;
+        width: 80%;
+        height: 80%;
+    }
+    
+    .fotografia10{
+        grid-area: foto10;
+        width: 80%;
+        height: 80%;
+    }
+
+    .fotos{
+        display: grid;
+        grid-template-columns: 20% 20% 20% 20% 20%;
+        grid-template-rows: 300px 300px;
+        grid-template-areas: "foto1 foto2 foto3 foto4 foto5"
+                            "foto6 foto7 foto8 foto9 foto10";
+        align-items: center;
+        justify-items: center;
+        align-content: center;
+        justify-content: center;
+        margin-left: 10px;
+        margin-right: 10px;
+        background-image: linear-gradient(lightblue, white, lightblue);
+    }
+
+    div img{
+        transform: scale(1, 1);
+        transition: all 1s;
+        border-radius: 1em;
+    }
+    
+    div img:hover{
+        transform: scale(1.1, 1.1);
+        transition: all 1s;
+    }
+    
+    th, td {
+        border: 2px solid black;
+        padding: 15px;
+        text-align: left;
+        font-style: normal;
+    }
+    
+    th {
+        height: 50px;
+        background-image: linear-gradient(lightblue, white, lightblue);
+        color: black;
+        text-shadow: 4px 4px 4px white;    
+        font-style: normal;
+    }
+    
+    section article {
+        border: 3px solid whitesmoke;
+        border-radius: 1em;
+        text-align: left;
         font-style: normal;
         height: 140px;
     }
@@ -2104,4 +2563,3 @@ nav ul li{
         grid-area: opcion5;
     }
 }
-
