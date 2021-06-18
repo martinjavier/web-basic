@@ -146,13 +146,34 @@ h1{
     height: 80%;
 }
 
+.videoCuatro{
+    grid-area: video4;
+    width: 80%;
+    height: 80%;
+}
+
+.videoCinco{
+    grid-area: video5;
+    width: 80%;
+    height: 80%;
+}
+
+.videoSeis{
+    grid-area: video6;
+    width: 80%;
+    height: 80%;
+}
+
 .contenedorVideos{
     display: grid;
-    grid-template-columns: 30% 1% 30% 1% 30%;
-    grid-template-rows: auto;
-    grid-template-areas: "video1 . video2 . video3";
+    grid-template-columns: 29% 1% 29% 1% 29%;
+    grid-template-rows: auto auto;
+    grid-template-areas: "video1 . video2 . video3"
+                         "video4 . video5 . video6";
     align-items: center;
     justify-content: center;
+    margin-left: 0px;
+    margin-right: 0px;
     background-image: linear-gradient(lightblue, white, lightblue);
 }
 
@@ -656,6 +677,24 @@ nav ul li{
         height: 150px;
     }
 
+    .videoCuatro{
+        grid-area: video4;
+        width: 100%;
+        height: 150px;
+    }
+
+    .videoCinco{
+        grid-area: video5;
+        width: 100%;
+        height: 150px;
+    }
+
+    .videoSeis{
+        grid-area: video6;
+        width: 100%;
+        height: 150px;
+    }
+
     .mainInicio{
         background-image: linear-gradient(lightblue, white, lightblue);
         width: 100%;   
@@ -878,9 +917,10 @@ nav ul li{
 
     .contenedorVideos{
         display: grid;
-        grid-template-columns: 30% 30% 30%;
-        grid-template-rows: auto;
-        grid-template-areas: "video1 video2 video3";
+        grid-template-columns: 29% 1% 29% 1% 29%;
+        grid-template-rows: auto auto;
+        grid-template-areas: "video1 . video2 . video3"
+                             "video4 . video5 . video6";
         align-items: center;
         justify-content: center;
         margin-left: 0px;
@@ -949,6 +989,24 @@ nav ul li{
 
     .videoTres{
         grid-area: video3;
+        width: 100%;
+        height: 150px;
+    }
+
+    .videoCuatro{
+        grid-area: video4;
+        width: 100%;
+        height: 150px;
+    }
+
+    .videoCinco{
+        grid-area: video5;
+        width: 100%;
+        height: 150px;
+    }
+
+    .videoSeis{
+        grid-area: video6;
         width: 100%;
         height: 150px;
     }
@@ -1176,15 +1234,35 @@ nav ul li{
         width: 100%;
         height: 300px;
     }
+
+    .videoCuatro{
+        grid-area: video4;
+        width: 100%;
+        height: 300px;
+    }
+
+    .videoCinco{
+        grid-area: video5;
+        width: 100%;
+        height: 300px;
+    }
+
+    .videoSeis{
+        grid-area: video6;
+        width: 100%;
+        height: 300px;
+    }
     
     .contenedorVideos{
         display: grid;
-        grid-template-columns: 30% 1% 30% 1% 30%;
-        grid-template-rows: auto;
-        grid-template-areas: "video1 . video2 . video3";
+        grid-template-columns: 29% 1% 29% 1% 29%;
+        grid-template-rows: auto auto;
+        grid-template-areas: "video1 . video2 . video3"
+                             "video4 . video5 . video6";
         align-items: center;
         justify-content: center;
-        background-image: linear-gradient(lightblue, white, lightblue);
+        margin-left: 0px;
+        margin-right: 0px;
     }
     
     div iframe{
@@ -1688,15 +1766,35 @@ nav ul li{
         width: 100%;
         height: 300px;
     }
+
+    .videoCuatro{
+        grid-area: video4;
+        width: 100%;
+        height: 300px;
+    }
+
+    .videoCinco{
+        grid-area: video5;
+        width: 100%;
+        height: 300px;
+    }
+
+    .videoSeis{
+        grid-area: video6;
+        width: 100%;
+        height: 300px;
+    }
     
     .contenedorVideos{
         display: grid;
-        grid-template-columns: 30% 1% 30% 1% 30%;
-        grid-template-rows: auto;
-        grid-template-areas: "video1 . video2 . video3";
+        grid-template-columns: 29% 1% 29% 1% 29%;
+        grid-template-rows: auto auto;
+        grid-template-areas: "video1 . video2 . video3"
+                             "video4 . video5 . video6";
         align-items: center;
         justify-content: center;
-        background-image: linear-gradient(lightblue, white, lightblue);
+        margin-left: 0px;
+        margin-right: 0px;
     }
     
     div iframe{
@@ -2200,15 +2298,35 @@ nav ul li{
         width: 100%;
         height: 300px;
     }
+
+    .videoCuatro{
+        grid-area: video4;
+        width: 100%;
+        height: 300px;
+    }
+
+    .videoCinco{
+        grid-area: video5;
+        width: 100%;
+        height: 300px;
+    }
+
+    .videoSeis{
+        grid-area: video6;
+        width: 100%;
+        height: 300px;
+    }
     
     .contenedorVideos{
         display: grid;
-        grid-template-columns: 30% 1% 30% 1% 30%;
-        grid-template-rows: auto;
-        grid-template-areas: "video1 . video2 . video3";
+        grid-template-columns: 29% 1% 29% 1% 29%;
+        grid-template-rows: auto auto;
+        grid-template-areas: "video1 . video2 . video3"
+                             "video4 . video5 . video6";
         align-items: center;
         justify-content: center;
-        background-image: linear-gradient(lightblue, white, lightblue);
+        margin-left: 0px;
+        margin-right: 0px;
     }
     
     div iframe{
