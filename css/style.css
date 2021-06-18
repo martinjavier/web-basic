@@ -4,6 +4,10 @@
     font-family: Ubuntu, Arial, Helvetica, sans-serif;
 }
 
+.bold{
+    font-variant: initial;
+}
+
 /* MAIN CSS */
 
 section{
