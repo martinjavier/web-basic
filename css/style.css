@@ -281,7 +281,8 @@ fieldset{
 .botonesFormulario{
     display: flex;
     flex-direction:row;
-    justify-content: right;   
+    justify-content: right;  
+    align-content: right; 
 }
 
 .botones{
@@ -1342,7 +1343,8 @@ nav ul li{
     .botonesFormulario{
         display: flex;
         flex-direction:row;
-        justify-content: right;   
+        justify-content: right;
+        align-content: right;  
     }
     
     .botones{
@@ -1868,7 +1870,8 @@ nav ul li{
     .botonesFormulario{
         display: flex;
         flex-direction:row;
-        justify-content: right;   
+        justify-content: right;
+        align-content: right;
     }
     
     .botones{
